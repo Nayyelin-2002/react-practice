@@ -1,0 +1,100 @@
+.seating {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.allrow {
+  display: flex;
+  gap: 2rem;
+}
+.row1 {
+  border: 1px solid black;
+  width: 10px;
+  padding: 10px;
+  font-weight: bold;
+  height: 15px;
+  text-align: center;
+  font-size: 10px;
+}
+.SNO {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -10px;
+  width: 1000px;
+}
+.num {
+  border: 1px solid black;
+  width: 10px;
+  padding: 10px;
+  font-weight: bold;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+.num:hover {
+  background-color: gray;
+}
+.littleseat {
+  max-width: 36%;
+  margin: 0 auto;
+}
+.type {
+  display: flex;
+  gap: 3rem;
+  max-width: 40%;
+  margin: 0 auto;
+}
+.single,
+.couple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.redforsingle {
+  background-color: red;
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+}
+.blueforcouple {
+  background-color: blue;
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+}
+.SS {
+  background-color: red;
+}
+.CC {
+  background-color: blue;
+}
+.showseats {
+  display: flex;
+  gap: 0.5rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.check {
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: tomato;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.check:hover {
+  color: rgb(171, 168, 168);
+  background-color: rgb(171, 69, 50);
+}
